@@ -1,7 +1,7 @@
 Description
 ===========
 
-Creates the ubuntu user and adds ssh-public-keys to ~ubuntu/.ssh/authorized_keys
+This cookbook has a definition to add ssh public keys to a user's ~/.authorized_keys
 
 Requirements
 ============
@@ -18,4 +18,8 @@ Attributes
 
 Usage
 =====
+
+authorized_keys_for "username"
+authorized_keys_for "username", home: "/var/apps"
+authorized_keys_for "username", group: "staff", keys: "name-of-data-bag"
 
