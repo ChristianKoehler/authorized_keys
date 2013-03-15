@@ -1,3 +1,4 @@
+name             "authorized_keys"
 maintainer       "Skalar AS"
 maintainer_email "gr@skalar.no"
 license          "All rights reserved"
